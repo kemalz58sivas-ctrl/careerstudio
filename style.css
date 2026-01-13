@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  color: #1f2933;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ddd;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #1f2933;
+}
+
+.hero {
+  padding: 80px 40px;
+  background: #f5f7fa;
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+.hero p {
+  margin: 20px 0;
+}
+
+.btn {
+  background: #1f2a44;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.products, .about, .cta {
+  padding: 60px 40px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.footer {
+  background: #1f2a44;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
